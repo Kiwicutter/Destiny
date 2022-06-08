@@ -1,0 +1,13 @@
+/* Trash weapons v0.4*/
+is:weapon
+(
+	(
+	-is:exotic
+	is:dupelower
+	-is:wishlist
+	-is:crafted
+	-(deepsight:pattern -is:patternunlocked)
+	)
+	or (is:wishlist is:patternunlocked -is:crafted)
+)
+-is:maxpower -is:masterwork
